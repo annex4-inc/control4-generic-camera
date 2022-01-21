@@ -1,5 +1,5 @@
 {
-  "name": "generic_camera",
+  "name": "generic-camera-driver",
   "description": "",
   "version": "0.0.9",
   "main": "src/driver.lua",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/annex4/generic_camera.git"
+    "url": "https://github.com/annex4/generic-camera-driver.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/annex4/generic_camera/issues"
+    "url": "https://github.com/annex4/generic-camera-driver/issues"
   },
-  "homepage": "https://github.com/annex4/generic_camera",
+  "homepage": "https://github.com/annex4/generic-camera-driver",
   "control4": {
     "name": "Generic Camera",
     "model": "Camera",
