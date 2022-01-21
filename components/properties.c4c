@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Driver Version",
+    "type": "STRING",
+    "default": "",
+    "readonly": true
+  },
+  {
+    "name": "MJPEG Endpoint",
+    "type": "STRING",
+    "default": "",
+    "readonly": false
+  },
+  {
+    "name": "RTSP Endpoint",
+    "type": "STRING",
+    "default": "",
+    "readonly": false
+  },
+  {
+    "name": "Snapshot Endpoint",
+    "type": "STRING",
+    "default": "",
+    "readonly": false
+  }
+]

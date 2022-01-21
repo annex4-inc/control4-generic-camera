@@ -1,0 +1,65 @@
+{
+  "name": "generic_camera",
+  "description": "",
+  "version": "0.0.9",
+  "main": "src/driver.lua",
+  "scripts": {
+    "test": "wsl busted tests/test.lua"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annex4/generic_camera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annex4/generic_camera/issues"
+  },
+  "homepage": "https://github.com/annex4/generic_camera",
+  "control4": {
+    "name": "Generic Camera",
+    "model": "Camera",
+    "manufacturer": "",
+    "created": "10/21/2021 3:49:41 PM",
+    "icon": {
+      "small": "devices_sm/c4.gif",
+      "large": "devices_sm/c4.gif"
+    },
+    "control": "lua_gen",
+    "controlmethod": "ip",
+    "capabilities": {
+      "modes": "SNAPSHOT,H264,MJPEG",
+      "has_pan": "false",
+      "has_pan_scan": "false",
+      "has_tilt": "false",
+      "has_tilt_scan": "false",
+      "has_home": "false",
+      "has_zoom": "false",
+      "number_presets": "0",
+      "default_http_port": "80",
+      "default_rtsp_port": "554",
+      "default_authentication_required": "true",
+      "default_authentication_type": "BASIC",
+      "default_username": "",
+      "default_password": "",
+      "address_readonly": "false",
+      "http_port_readonly": "false",
+      "show_test_url": "true",
+      "use_http_for_h264": "false",
+      "has_camera": "true",
+      "has_display": "false",
+      "has_buttons": "true",
+      "can_set_aec": "true",
+      "is_doorstation": "true",
+      "audio_codecs_supported": "G711 ULAW",
+      "vidio_codecs_supported": ""
+    }
+  },
+  "devDependencies": {
+    "@annex4/test.control4": "^1.0.0"
+  },
+  "dependencies": {
+    "@annex4/proxy.camera": "^1.0.0"
+  }
+}

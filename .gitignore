@@ -1,0 +1,6 @@
+node_modules/
+intermediate/
+documents/
+output/
+tests/
+package-lock.json

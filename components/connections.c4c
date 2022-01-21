@@ -1,0 +1,14 @@
+[
+    {
+        "id": 5001,
+        "facing": 6,
+        "connectionname": "Camera",
+        "type": 2,
+        "consumer": false,
+        "audiosource": false,
+        "videosource": false,
+        "classes": [
+            {"classname": "CAMERA"}
+        ]
+    }
+]
